@@ -1,0 +1,34 @@
+---
+title: "Census Tract 0012.4"
+author: 
+  - Sagith Kalaichelvam
+  - Joseph Chung
+thanks: "Code, data are available at: https://github.com/UtopianYoungChung
+date: "`r Sys.time()`"
+date-format: "D MMMM YYYY"
+format: 
+  pdf:
+    documentclass: article
+    geometry: margin = 1in
+    abstract: "This paper explores several potential explanatory factors for "
+    toc: true
+    number-sections: true
+    colorlinks: true
+    lot: true
+    lof: true
+bibliography: references.bib
+---
+
+```{r setup, include = FALSE}
+#Load libraries
+library(gridExtra)
+library(cdlTools)
+library(RGraphics)
+library(tidyverse)
+library(palmerpenguins)
+library(knitr)
+library(ggplot2)
+library(haven)
+library(dplyr)
+options(dplyr.summarise.inform = FALSE)
+```
